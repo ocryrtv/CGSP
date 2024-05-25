@@ -9,10 +9,10 @@ We have used two datasets : [Amazon](http://jmcauley.ucsd.edu/data/amazon/index_
 You can put data in `cgsp/data/` with `{dataset}_{source domain}_{target domain}_{train/val/test}_{test_mode}.csv` format.
 
 ## How to Run
-To run the code, you can execute the following command in your terminal:
-> test_mode : `src` for inter-domain recommendation, `tgt` for intra-domain recommendation
-> simple_model : cgsp-io, cgsp-oa, cgsp-ua
-> Additionally, if you want to test previous GSP-methods in unified domain, you can execute command with `--simple_model={gf-cf/pgsp/lgcn-ide} --test_mode={merge-src/merge-tgt}`
+To run the code, you can execute the following command in your terminal:-
+- test_mode : `src` for inter-domain recommendation, `tgt` for intra-domain recommendation
+- simple_model : cgsp-io, cgsp-oa, cgsp-ua
+- Additionally, if you want to test previous GSP-methods in unified domain, you can execute command with `--simple_model={gf-cf/pgsp/lgcn-ide} --test_mode={merge-src/merge-tgt}`
 
 ```bash
 python main.py --dataset=<dataset name> --dtype=<src/tgt domain> --simple_model=<model name> --a=<alpha> --test_mode=<src/tgt>
