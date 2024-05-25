@@ -1,15 +1,19 @@
 # CGSP Code Repository
 
 This is code for CGSP(Cross-Domain Recommendation framework based on Graph Signal Processing).
+
 Also this code includes 3 basedlines of GSP-based methods(i.e, GF-CF, PGSP, LGCN-IDE) for unified domain.
 
 
 ## Datasets
-We have used two datasets : [Amazon](http://jmcauley.ucsd.edu/data/amazon/index_2014.html) and [Douban](https://www.kaggle.com/datasets/fengzhujoey/douban-datasetratingreviewside-information?resource=download)
+We have used two datasets : [Amazon](http://jmcauley.ucsd.edu/data/amazon/index_2014.html) and [Douban](https://www.kaggle.com/datasets/fengzhujoey/douban-datasetratingreviewside-information?resource=download).
+
 You can put data in `cgsp/data/` with `{dataset}_{source domain}_{target domain}_{train/val/test}_{test_mode}.csv` format.
 
 ## How to Run
-To run the code, you can execute the following command in your terminal:-
+
+To run the code, you can execute the following command in your terminal:
+
 - test_mode : `src` for inter-domain recommendation, `tgt` for intra-domain recommendation
 - simple_model : cgsp-io, cgsp-oa, cgsp-ua
 - Additionally, if you want to test previous GSP-methods in unified domain, you can execute command with `--simple_model={gf-cf/pgsp/lgcn-ide} --test_mode={merge-src/merge-tgt}`
