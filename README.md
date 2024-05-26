@@ -1,4 +1,4 @@
-# CGSP Code Repository
+# CGSP(Cross-Domain Recommendation framework based on Graph Signal Processing)
 
 This is code for CGSP(Cross-Domain Recommendation framework based on Graph Signal Processing).
 
@@ -7,6 +7,7 @@ Also this code includes 3 baselines of GSP-based methods(i.e, GF-CF, PGSP, LGCN-
 
 ## Datasets
 We have used two datasets : [Amazon](http://jmcauley.ucsd.edu/data/amazon/index_2014.html) and [Douban](https://www.kaggle.com/datasets/fengzhujoey/douban-datasetratingreviewside-information?resource=download).
+
 Specifically, we have used Amazon Movie and Music, Amazon Sports and Clothes, Douban Movie and Music, Douban Movie and Book.
 
 More details, in cgsp/data/readme.md
