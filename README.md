@@ -16,10 +16,10 @@ More details, in cgsp/data/readme.md
 
 To run the code, you can execute the following command in your terminal:
 
--Parameter Configurations
-  - test_mode : `src` for inter-domain recommendation, `tgt` for intra-domain recommendation
-  - simple_model : cgsp-io, cgsp-oa, cgsp-ua
-  - a : hyperparameter alpha ( recommend 0.85 )
+- Parameter Configurations
+- test_mode : `src` for inter-domain recommendation, `tgt` for intra-domain recommendation
+- simple_model : cgsp-io, cgsp-oa, cgsp-ua
+- a : hyperparameter alpha ( recommend 0.85 )
 
 ```bash
 python main.py --dataset=<dataset name> --dtype=<src/tgt domain> --simple_model=<model name> --a=<alpha> --test_mode=<src/tgt>
